@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C47BFB73-F5CC-E211-F86D-5BAA2C58B8C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Anima2D\Examples\Scripts\CharacterMotion.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\Follow.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringCollider.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycle.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Bone2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Control.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\EditorUpdaterProxy.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Ik2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkCCD2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkGroup.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkLimb2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DCCD.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DLimb.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Pose.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\PoseManager.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
+     <Compile Include="Assets\cam_scene.cs" />
+     <Compile Include="Assets\scrips\CHECK.cs" />
+     <Compile Include="Assets\scrips\Ryoko_CONTROLER.cs" />
+     <Compile Include="Assets\scrips\activ.cs" />
+     <Compile Include="Assets\scrips\boss_activ.cs" />
+     <Compile Include="Assets\scrips\boss_attack1.cs" />
+     <Compile Include="Assets\scrips\boss_control.cs" />
+     <Compile Include="Assets\scrips\cam_terra.cs" />
+     <Compile Include="Assets\scrips\contar_pastis.cs" />
+     <Compile Include="Assets\scrips\cronom.cs" />
+     <Compile Include="Assets\scrips\esceprueb.cs" />
+     <Compile Include="Assets\scrips\fire_ball.cs" />
+     <Compile Include="Assets\scrips\fire_ball_efct.cs" />
+     <Compile Include="Assets\scrips\ice_ball.cs" />
+     <Compile Include="Assets\scrips\ice_ball_efct.cs" />
+     <Compile Include="Assets\scrips\lanzarrocas.cs" />
+     <Compile Include="Assets\scrips\lanzarrocas_effect.cs" />
+     <Compile Include="Assets\scrips\levelmgr.cs" />
+     <Compile Include="Assets\scrips\npc_murcielago.cs" />
+     <Compile Include="Assets\scrips\npc_tortuga.cs" />
+     <Compile Include="Assets\scrips\paso_libre.cs" />
+     <Compile Include="Assets\scrips\pastilla.cs" />
+     <Compile Include="Assets\scrips\ryoko_hit.cs" />
+     <Compile Include="Assets\scrips\scene_manag.cs" />
+     <Compile Include="Assets\scrips\thunder.cs" />
+     <Compile Include="Assets\scrips\vidas_1.cs" />
+     <Compile Include="Assets\scrips\vidas_2.cs" />
+     <Compile Include="Assets\scrips\vidas_3.cs" />
+     <None Include="Assets\Anima2D\Version.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
+     <None Include="Assets\Anima2D\Licenses.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader" />
+     <None Include="Assets\Anima2D\Readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deep_Slumber", "Deep_Slumber.csproj", "{8D5770C3-4DA1-2591-4AFD-72E2302D04C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deep_Slumber.Editor", "Deep_Slumber.Editor.csproj", "{DDCD4EBA-0F3E-8D75-24A2-8C962C3398CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5770C3-4DA1-2591-4AFD-72E2302D04C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5770C3-4DA1-2591-4AFD-72E2302D04C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5770C3-4DA1-2591-4AFD-72E2302D04C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5770C3-4DA1-2591-4AFD-72E2302D04C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCD4EBA-0F3E-8D75-24A2-8C962C3398CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCD4EBA-0F3E-8D75-24A2-8C962C3398CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCD4EBA-0F3E-8D75-24A2-8C962C3398CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCD4EBA-0F3E-8D75-24A2-8C962C3398CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
